@@ -1,0 +1,5 @@
+/bionic64/.vagrant
+/bionic64/my_key
+/bionic64/my_key.pub
+/bionic64/*.log
+/wordpress_com_ansible/.vagrant
