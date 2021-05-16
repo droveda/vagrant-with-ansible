@@ -14,7 +14,8 @@
 ---
 ## Some steps to follow
 * create the vagrant file as the example and after run the below command
-vagrant up
+   * vagrant init ubuntu/bionic64
+   * vagrant up
 
 * Ansible commands:
     * ansible wordpress -u vagrant --private-key .vagrant/machines/wordpress/virtualbox/private_key -i hosts -m shell -a 'echo Hello, World'
